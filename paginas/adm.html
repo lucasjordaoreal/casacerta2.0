@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image" href="/imagens/Logo_casacerta.svg">
+    <title>Gerenciamento de Casas</title>
+    <link rel="stylesheet" href="/css/style_adm.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciamento de Casas</h1>
+    </header>
+    <main>
+        <!-- Conteúdo será adicionado aqui -->
+        <form id="house-form">
+            <label for="house-name">Nome da Casa:</label>
+            <input type="text" id="house-name" required>
+        
+            <label for="house-price">Preço:</label>
+            <input type="number" id="house-price" required>
+        
+            <label for="house-description">Descrição:</label>
+            <textarea id="house-description" required></textarea>
+        
+            <label for="house-availability">Disponibilidade:</label>
+            <input type="date" id="house-availability" required>
+        
+            <button type="submit">Adicionar Casa</button>
+        </form>
+        
+    </main>
+    <script src="js/script_adm.js"></script>
+</body>
+</html>

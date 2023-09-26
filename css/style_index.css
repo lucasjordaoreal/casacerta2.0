@@ -1,0 +1,141 @@
+/* Estilos gerais */
+
+.container {
+    position: relative;
+    max-width: 100%;
+    border: 1px solid #000;
+    margin: 0 auto;
+  }
+  
+  .botao-canto {
+    position: absolute;
+    top: 10px;
+    right: 10%;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent; /* Alterado para transparent para ser mais limpo */
+  }
+  
+  .search-bar {
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .search-icon {
+    margin: 0 8px;
+  }
+  
+  .search-bar input[type="text"] {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 4px 8px;
+  }
+  
+  .centrar-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 39vh;
+  }
+  .botoes-centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Espaçamento superior */
+  }
+  
+  .botao-entrar {
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #eb7600;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px; /* Espaçamento inferior entre os botões */
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+  }
+  
+  .botao-cadastrar {
+    color: #27334C;
+    padding: 2px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent; /* Alterado para transparent para ser mais limpo */
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px; /* Espaçamento inferior entre os botões */
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+  }
+  
+  .texto-centro {
+    margin-top: 20px; /* Espaçamento superior em relação à imagem */
+    text-align: center;
+  }
+  
+  .texto-centro h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+  }
+  
+  /* Estilos específicos para telas menores, como o iPhone 11 Pro Max */
+  
+  @media screen and (max-width: 768px) {
+    .centrar-imagem img {
+      max-width: 80%; /* Reduz o tamanho da logo */
+    }
+  
+    .search-bar {
+      top: 10px; /* Move a barra de busca para cima */
+      left: 5%; /* Ajusta a posição da barra de busca */
+      width: 90%; /* Aumenta a largura da barra de busca */
+    }
+  
+  .campo-casas {
+    display: flex;
+    flex-wrap: wrap; /* Para permitir que as casas quebrem para a próxima linha em telas menores */
+    justify-content: center;
+    align-items: flex-start; /* Alterado para flex-start para alinhar as casas no topo */
+  }
+  .botao-entrar {
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #eb7600;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px; /* Espaçamento inferior entre os botões */
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+  }
+  
+  .botao-cadastrar {
+    color: #27334C;
+    padding: 2px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent; /* Alterado para transparent para ser mais limpo */
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px; /* Espaçamento inferior entre os botões */
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+  }
+}
+  
+  /* ... Outros estilos ... */
